@@ -1,0 +1,39 @@
+*{margin:0;}
+h3{color:chartreuse}
+#navbar{background-color:rgb(133, 219, 28);padding:30px;height:25px;}
+#navbar a:hover{background-color:rgb(86, 77, 14);transition-duration:0.4s;}
+#navbar a{background-color:rgb(220, 20, 113);float:right;color:white;text-decoration:none;padding:15px;margin-bottom:30px;margin-right:40px;}
+#navbar{position:fixed;width:100%;}
+#welcome-section{background-color:rgb(19, 66, 97);height:100vh;}
+#projects{background-color:rgb(28, 119, 172);height:1100px;}
+#project-tile{margin-left:20px;}
+#projects h1{text-align:center;color:white;text-decoration:underline;font-size:60px;padding-top:0px;}
+.project-tile{width:370px;height:390px;margin-left:30px;background-color:rgb(49, 49, 71);box-shadow:5px 5px 5px  rgb(141, 9, 79)}
+img{width:370px;height:340px;}
+div h6{font-size:25px;text-align:center;color:white}
+.All{display:flex;}
+.All_one{margin-top:30px;display:flex;}
+button{margin-left:550px;background-color:rgb(44, 44, 65);padding:10px;border:none;font-size:20px;color:white;}
+button:hover{background-color:rgb(147, 34, 134);transition:0.3s}
+#Portfolio{background-color:rgb(28, 51, 40);width:100%;height:500px;}
+.contact-links{margin-left:200px;}
+.contact-links a{margin-left:50px;;color:white;font-size:30px;text-decoration:none;}
+.contact-links a:hover{font-size:250%;color:cyan;}
+hr.hr_style{border:2px solid rgb(172, 216, 13);margin-top:30px;}
+img.icon{height:200px;width:200px;padding-top:100px;border-radius:100px; }
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+#image1,#image2{height:100px;width:100px;box-shadow:3px 3px 3px 3px rgb(9, 97, 173)}
+h5{text-align:center}
+h4{color:white}
+h1{text-align:center;
+color:maroon;}
+@media (max-width: 29em) {
+nav {
+flex-direction: column;
+text-align: center;
+}
+}
